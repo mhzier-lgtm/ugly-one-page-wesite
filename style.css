@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(255, 23, 132);
+    color: rgb(107, 243, 243);
+    font-size: 55px;
+    text-align: center;
+    font-family: "coral pixels";
+    background-image: url(img/77.jpg);
+
+}
+h1{
+    background-color: rgb(255, 247, 0);
+    rotate: calc(4deg);
+}
+
+img{
+    size: 20%;
+}
+
+@font-face{
+    font-family: "coral pixels";
+    src: url(<link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap" rel="stylesheet">;}
+
+
+.img2{
+    rotate: calc(12deg);
+    size: 2%;
+    border: dashed rgb(255, 106, 0) 16px;
+}
+
+h2{
+    rotate: calc(237deg);
+    font-family: "coral pixels";
+    font-size: 70px;
+    color: aquamarine;
+    background-color: rgb(255, 0, 0);
+}
+
+.img1{
+    rotate: calc(32deg);
+    size: 3%;
+    border: solid purple 70px;
+    border-radius: 2%;
+}
+
+.img2{
+    rotate: calc(12deg);
+    size: 2%;
+    border: dashed rgb(255, 106, 0) 16px; 
+}
+
+:hover{
+    transition: all 0.3s ease;
+}
+
+
+
